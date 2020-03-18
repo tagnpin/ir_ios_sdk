@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		3544FEDA9F89D39BA8A1CC24 /* Pods_InviteReferrals_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InviteReferrals_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49F865F63719DD6B6DDFA73F /* InviteReferrals.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = InviteReferrals.podspec; path = ../InviteReferrals.podspec; sourceTree = "<group>"; };
+		49F865F63719DD6B6DDFA73F /* InviteReferrals.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = InviteReferrals.podspec; path = ../InviteReferrals.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A7695B0E631BC21D57FE35E /* Pods-InviteReferrals_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InviteReferrals_Tests.debug.xcconfig"; path = "Target Support Files/Pods-InviteReferrals_Tests/Pods-InviteReferrals_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -28,8 +28,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		82BCDA573A5544E361ED9888 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		884051C530F7C75973F55A40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		82BCDA573A5544E361ED9888 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		884051C530F7C75973F55A40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DAED656B27FDD756BBB8B3EE /* Pods-InviteReferrals_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InviteReferrals_Tests.release.xcconfig"; path = "Target Support Files/Pods-InviteReferrals_Tests/Pods-InviteReferrals_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +114,6 @@
 				5A7695B0E631BC21D57FE35E /* Pods-InviteReferrals_Tests.debug.xcconfig */,
 				DAED656B27FDD756BBB8B3EE /* Pods-InviteReferrals_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

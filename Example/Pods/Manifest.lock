@@ -1,0 +1,16 @@
+PODS:
+  - InviteReferrals (0.1.0)
+
+DEPENDENCIES:
+  - InviteReferrals (from `../`)
+
+EXTERNAL SOURCES:
+  InviteReferrals:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  InviteReferrals: fca4ef920d1473d563cee641d44ba8717011cf42
+
+PODFILE CHECKSUM: 995b5e2ec9e2e3e3fe1ea332f232fd626b336ae6
+
+COCOAPODS: 1.9.1
