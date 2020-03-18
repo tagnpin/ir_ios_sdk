@@ -30,13 +30,9 @@ InviteReferrals is a powerful and yet simple to integrate referral software that
 
   s.platform = :ios
   s.ios.deployment_target = '8.0'
-  s.source_files = 'InviteReferrals/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'InviteReferrals' => ['InviteReferrals/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'InviteReferrals/Classes/**/*.h'
+  s.resources = ['InviteReferrals/Assets/**/*.png', 'InviteReferrals/Classes/IR_UserResources.plist']
+  s.frameworks = 'Foundation', 'UIKit', 'Security', 'Social', 'MessageUI'
+  s.vendored_library = 'InviteReferrals/Classes/libInvitereferrals_4_3_2.a'
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 end

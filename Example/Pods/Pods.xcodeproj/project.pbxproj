@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C1D5DE3526907F42186DB56C5689A04 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EE2AE4F9B8F4CB9341B0CE3CC694B0 /* ReplaceMe.m */; };
 		13E242B94B5109A1B6B157F88A0F75B4 /* Pods-InviteReferrals_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134A9669AE33150EEA93160518C39CDD /* Pods-InviteReferrals_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2520BE04242259D8001F1CAB /* sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF4242259D8001F1CAB /* sms.png */; };
+		2520BE05242259D8001F1CAB /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF5242259D8001F1CAB /* mail.png */; };
+		2520BE06242259D8001F1CAB /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF6242259D8001F1CAB /* share@2x.png */; };
+		2520BE07242259D8001F1CAB /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF7242259D8001F1CAB /* fb.png */; };
+		2520BE08242259D8001F1CAB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF8242259D8001F1CAB /* .gitkeep */; };
+		2520BE09242259D8001F1CAB /* share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF9242259D8001F1CAB /* share@3x.png */; };
+		2520BE0A242259D8001F1CAB /* whatsappactivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFA242259D8001F1CAB /* whatsappactivity@3x.png */; };
+		2520BE0B242259D8001F1CAB /* whatsappactivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFB242259D8001F1CAB /* whatsappactivity@2x.png */; };
+		2520BE0C242259D8001F1CAB /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFC242259D8001F1CAB /* share.png */; };
+		2520BE0D242259D8001F1CAB /* whatsappactivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFD242259D8001F1CAB /* whatsappactivity.png */; };
+		2520BE0E242259D8001F1CAB /* WhatsApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFE242259D8001F1CAB /* WhatsApp.png */; };
+		2520BE0F242259D8001F1CAB /* IR_UserResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2520BE00242259D8001F1CAB /* IR_UserResources.plist */; };
+		2520BE10242259D8001F1CAB /* libInvitereferrals_4_3_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2520BE01242259D8001F1CAB /* libInvitereferrals_4_3_2.a */; };
+		2520BE11242259D8001F1CAB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2520BE02242259D8001F1CAB /* .gitkeep */; };
+		2520BE12242259D8001F1CAB /* InviteReferrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 2520BE03242259D8001F1CAB /* InviteReferrals.h */; };
 		788D009140B85AC46779B2AA0A5838D1 /* Pods-InviteReferrals_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D85532BB2EEBA645EB93EFFBC8DA /* Pods-InviteReferrals_Tests-dummy.m */; };
 		ABBE8F5E6400904E43DF6117C3768AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DB63AE2B88A486FBB714D1A58B4688D7 /* InviteReferrals-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42616C52AFE4CC1EF2639D74B92A3F9A /* InviteReferrals-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,25 +43,39 @@
 /* Begin PBXFileReference section */
 		10BA39E03BC8F815BDF6357816EC0A81 /* Pods-InviteReferrals_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InviteReferrals_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		134A9669AE33150EEA93160518C39CDD /* Pods-InviteReferrals_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InviteReferrals_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2A20C61572EA8C040BF9F8094A55056D /* InviteReferrals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = InviteReferrals.framework; path = InviteReferrals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2520BDF4242259D8001F1CAB /* sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms.png; sourceTree = "<group>"; };
+		2520BDF5242259D8001F1CAB /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		2520BDF6242259D8001F1CAB /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
+		2520BDF7242259D8001F1CAB /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		2520BDF8242259D8001F1CAB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		2520BDF9242259D8001F1CAB /* share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@3x.png"; sourceTree = "<group>"; };
+		2520BDFA242259D8001F1CAB /* whatsappactivity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsappactivity@3x.png"; sourceTree = "<group>"; };
+		2520BDFB242259D8001F1CAB /* whatsappactivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsappactivity@2x.png"; sourceTree = "<group>"; };
+		2520BDFC242259D8001F1CAB /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		2520BDFD242259D8001F1CAB /* whatsappactivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatsappactivity.png; sourceTree = "<group>"; };
+		2520BDFE242259D8001F1CAB /* WhatsApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhatsApp.png; sourceTree = "<group>"; };
+		2520BE00242259D8001F1CAB /* IR_UserResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IR_UserResources.plist; sourceTree = "<group>"; };
+		2520BE01242259D8001F1CAB /* libInvitereferrals_4_3_2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInvitereferrals_4_3_2.a; sourceTree = "<group>"; };
+		2520BE02242259D8001F1CAB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		2520BE03242259D8001F1CAB /* InviteReferrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteReferrals.h; sourceTree = "<group>"; };
+		2A20C61572EA8C040BF9F8094A55056D /* InviteReferrals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InviteReferrals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32D3FFEF75AE2940080A12D5AAD55AAA /* Pods_InviteReferrals_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InviteReferrals_Tests.framework; path = "Pods-InviteReferrals_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32D3FFEF75AE2940080A12D5AAD55AAA /* Pods_InviteReferrals_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InviteReferrals_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42616C52AFE4CC1EF2639D74B92A3F9A /* InviteReferrals-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InviteReferrals-umbrella.h"; sourceTree = "<group>"; };
 		4C1A2EDA8000C61D81065C6FCB6AA3AD /* Pods-InviteReferrals_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InviteReferrals_Tests.modulemap"; sourceTree = "<group>"; };
 		575849887FDB3D3C1B77FB2C0FDD115F /* InviteReferrals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InviteReferrals.release.xcconfig; sourceTree = "<group>"; };
-		581C5BA2CF7AF8FA2A36E648C1B274B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		581C5BA2CF7AF8FA2A36E648C1B274B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5D34C193CD5791CF15E422CBFBB62BFD /* Pods-InviteReferrals_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InviteReferrals_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		63D5289B20008F945B89FB7B06696E99 /* InviteReferrals.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InviteReferrals.modulemap; sourceTree = "<group>"; };
 		6CBB2B3DC217805FEFADF1167E2CEC2C /* Pods-InviteReferrals_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InviteReferrals_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6DF1A8E5EC45227ADC83C3CB497E3B6D /* InviteReferrals.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = InviteReferrals.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6DF1A8E5EC45227ADC83C3CB497E3B6D /* InviteReferrals.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = InviteReferrals.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		75DCC69340612144C4213F8FB2287DD1 /* Pods-InviteReferrals_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InviteReferrals_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB3D85532BB2EEBA645EB93EFFBC8DA /* Pods-InviteReferrals_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InviteReferrals_Tests-dummy.m"; sourceTree = "<group>"; };
 		ADFF025166AE864F37B885A606D2B19B /* Pods-InviteReferrals_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InviteReferrals_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6D3E6339D24E1F86B498F99DA3D409C /* InviteReferrals-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InviteReferrals-prefix.pch"; sourceTree = "<group>"; };
-		C7EE2AE4F9B8F4CB9341B0CE3CC694B0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = InviteReferrals/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		C84C4616CDF4AB3FE8121B565916A760 /* Pods-InviteReferrals_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InviteReferrals_Tests-Info.plist"; sourceTree = "<group>"; };
-		CD8CC8A122A3C9E1993F795D9DDBF45B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CD8CC8A122A3C9E1993F795D9DDBF45B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D81E60D80E0D3286AA151FB6BBB49A8C /* InviteReferrals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InviteReferrals.debug.xcconfig; sourceTree = "<group>"; };
 		E18DCB991AE6FFCFE6DF695D0891AE93 /* InviteReferrals-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InviteReferrals-dummy.m"; sourceTree = "<group>"; };
 		FC4C7331F89B217180C7EE4C12AF3AC9 /* InviteReferrals-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "InviteReferrals-Info.plist"; sourceTree = "<group>"; };
@@ -67,12 +95,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				E329C61DF0C198A9456748D2AB5DF73E /* Foundation.framework in Frameworks */,
+				2520BE10242259D8001F1CAB /* libInvitereferrals_4_3_2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2520BDF3242259D8001F1CAB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2520BDF4242259D8001F1CAB /* sms.png */,
+				2520BDF5242259D8001F1CAB /* mail.png */,
+				2520BDF6242259D8001F1CAB /* share@2x.png */,
+				2520BDF7242259D8001F1CAB /* fb.png */,
+				2520BDF8242259D8001F1CAB /* .gitkeep */,
+				2520BDF9242259D8001F1CAB /* share@3x.png */,
+				2520BDFA242259D8001F1CAB /* whatsappactivity@3x.png */,
+				2520BDFB242259D8001F1CAB /* whatsappactivity@2x.png */,
+				2520BDFC242259D8001F1CAB /* share.png */,
+				2520BDFD242259D8001F1CAB /* whatsappactivity.png */,
+				2520BDFE242259D8001F1CAB /* WhatsApp.png */,
+			);
+			name = Assets;
+			path = InviteReferrals/Assets;
+			sourceTree = "<group>";
+		};
+		2520BDFF242259D8001F1CAB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2520BE00242259D8001F1CAB /* IR_UserResources.plist */,
+				2520BE01242259D8001F1CAB /* libInvitereferrals_4_3_2.a */,
+				2520BE02242259D8001F1CAB /* .gitkeep */,
+				2520BE03242259D8001F1CAB /* InviteReferrals.h */,
+			);
+			name = Classes;
+			path = InviteReferrals/Classes;
+			sourceTree = "<group>";
+		};
 		2B24DC4DEFF4F5EEE73AF391B02DC0AC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,7 +187,8 @@
 		70EC9C43ECC810C15DB76017DA887FED /* InviteReferrals */ = {
 			isa = PBXGroup;
 			children = (
-				C7EE2AE4F9B8F4CB9341B0CE3CC694B0 /* ReplaceMe.m */,
+				2520BDF3242259D8001F1CAB /* Assets */,
+				2520BDFF242259D8001F1CAB /* Classes */,
 				4A84C5CB5785327640AF1DAC6469E227 /* Pod */,
 				2B24DC4DEFF4F5EEE73AF391B02DC0AC /* Support Files */,
 			);
@@ -193,6 +254,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2520BE12242259D8001F1CAB /* InviteReferrals.h in Headers */,
 				DB63AE2B88A486FBB714D1A58B4688D7 /* InviteReferrals-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +332,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2520BE0A242259D8001F1CAB /* whatsappactivity@3x.png in Resources */,
+				2520BE0C242259D8001F1CAB /* share.png in Resources */,
+				2520BE0B242259D8001F1CAB /* whatsappactivity@2x.png in Resources */,
+				2520BE05242259D8001F1CAB /* mail.png in Resources */,
+				2520BE0F242259D8001F1CAB /* IR_UserResources.plist in Resources */,
+				2520BE07242259D8001F1CAB /* fb.png in Resources */,
+				2520BE08242259D8001F1CAB /* .gitkeep in Resources */,
+				2520BE0D242259D8001F1CAB /* whatsappactivity.png in Resources */,
+				2520BE11242259D8001F1CAB /* .gitkeep in Resources */,
+				2520BE0E242259D8001F1CAB /* WhatsApp.png in Resources */,
+				2520BE04242259D8001F1CAB /* sms.png in Resources */,
+				2520BE06242259D8001F1CAB /* share@2x.png in Resources */,
+				2520BE09242259D8001F1CAB /* share@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +371,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEE1EC3737B28123C712B8B11D5725A1 /* InviteReferrals-dummy.m in Sources */,
-				0C1D5DE3526907F42186DB56C5689A04 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,8 +538,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
