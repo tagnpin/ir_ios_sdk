@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'InviteReferrals'
-  s.version          = '4.3.2'
+  s.version          = '4.3.3'
   s.summary          = 'InviteReferrals is best referral software for mobile application'
 
 # This description is used to generate tags and improve search results.
@@ -33,6 +33,6 @@ InviteReferrals is a powerful and yet simple to integrate referral software that
   s.source_files = 'InviteReferrals/Classes/**/*.h'
   s.resources = ['InviteReferrals/Assets/**/*.png', 'InviteReferrals/Classes/IR_UserResources.plist']
   s.frameworks = 'Foundation', 'UIKit', 'Security', 'Social', 'MessageUI'
-  s.vendored_library = 'InviteReferrals/Classes/libInvitereferrals_4_3_2.a'
+  s.vendored_library = 'InviteReferrals/Classes/libInvitereferrals_4_3_3.a'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 end

@@ -20,10 +20,10 @@
 		2520BE0D242259D8001F1CAB /* whatsappactivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFD242259D8001F1CAB /* whatsappactivity.png */; };
 		2520BE0E242259D8001F1CAB /* WhatsApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFE242259D8001F1CAB /* WhatsApp.png */; };
 		2520BE0F242259D8001F1CAB /* IR_UserResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2520BE00242259D8001F1CAB /* IR_UserResources.plist */; };
-		2520BE10242259D8001F1CAB /* libInvitereferrals_4_3_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2520BE01242259D8001F1CAB /* libInvitereferrals_4_3_2.a */; };
 		2520BE11242259D8001F1CAB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2520BE02242259D8001F1CAB /* .gitkeep */; };
 		2520BE12242259D8001F1CAB /* InviteReferrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 2520BE03242259D8001F1CAB /* InviteReferrals.h */; };
 		788D009140B85AC46779B2AA0A5838D1 /* Pods-InviteReferrals_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D85532BB2EEBA645EB93EFFBC8DA /* Pods-InviteReferrals_Tests-dummy.m */; };
+		9D2DC877242B56E9003D31AC /* libInvitereferrals_4_3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2DC876242B56E9003D31AC /* libInvitereferrals_4_3_3.a */; };
 		ABBE8F5E6400904E43DF6117C3768AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DB63AE2B88A486FBB714D1A58B4688D7 /* InviteReferrals-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42616C52AFE4CC1EF2639D74B92A3F9A /* InviteReferrals-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E329C61DF0C198A9456748D2AB5DF73E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -55,7 +55,6 @@
 		2520BDFD242259D8001F1CAB /* whatsappactivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatsappactivity.png; sourceTree = "<group>"; };
 		2520BDFE242259D8001F1CAB /* WhatsApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhatsApp.png; sourceTree = "<group>"; };
 		2520BE00242259D8001F1CAB /* IR_UserResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IR_UserResources.plist; sourceTree = "<group>"; };
-		2520BE01242259D8001F1CAB /* libInvitereferrals_4_3_2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInvitereferrals_4_3_2.a; sourceTree = "<group>"; };
 		2520BE02242259D8001F1CAB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		2520BE03242259D8001F1CAB /* InviteReferrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteReferrals.h; sourceTree = "<group>"; };
 		2A20C61572EA8C040BF9F8094A55056D /* InviteReferrals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InviteReferrals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +69,7 @@
 		6CBB2B3DC217805FEFADF1167E2CEC2C /* Pods-InviteReferrals_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InviteReferrals_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6DF1A8E5EC45227ADC83C3CB497E3B6D /* InviteReferrals.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = InviteReferrals.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		75DCC69340612144C4213F8FB2287DD1 /* Pods-InviteReferrals_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InviteReferrals_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9D2DC876242B56E9003D31AC /* libInvitereferrals_4_3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInvitereferrals_4_3_3.a; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB3D85532BB2EEBA645EB93EFFBC8DA /* Pods-InviteReferrals_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InviteReferrals_Tests-dummy.m"; sourceTree = "<group>"; };
 		ADFF025166AE864F37B885A606D2B19B /* Pods-InviteReferrals_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InviteReferrals_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2DC877242B56E9003D31AC /* libInvitereferrals_4_3_3.a in Frameworks */,
 				E329C61DF0C198A9456748D2AB5DF73E /* Foundation.framework in Frameworks */,
-				2520BE10242259D8001F1CAB /* libInvitereferrals_4_3_2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,8 +124,8 @@
 		2520BDFF242259D8001F1CAB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9D2DC876242B56E9003D31AC /* libInvitereferrals_4_3_3.a */,
 				2520BE00242259D8001F1CAB /* IR_UserResources.plist */,
-				2520BE01242259D8001F1CAB /* libInvitereferrals_4_3_2.a */,
 				2520BE02242259D8001F1CAB /* .gitkeep */,
 				2520BE03242259D8001F1CAB /* InviteReferrals.h */,
 			);
