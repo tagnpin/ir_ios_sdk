@@ -1,0 +1,6 @@
+framework module InviteReferrals {
+  umbrella header "InviteReferrals-umbrella.h"
+
+  export *
+  module * { export * }
+}
