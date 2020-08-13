@@ -21,9 +21,9 @@
 		2520BE0E242259D8001F1CAB /* WhatsApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFE242259D8001F1CAB /* WhatsApp.png */; };
 		2520BE11242259D8001F1CAB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2520BE02242259D8001F1CAB /* .gitkeep */; };
 		788D009140B85AC46779B2AA0A5838D1 /* Pods-InviteReferrals_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D85532BB2EEBA645EB93EFFBC8DA /* Pods-InviteReferrals_Tests-dummy.m */; };
-		9DCA145A24DD9C7C00CAE09E /* libInvitereferrals_4_4_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCA145724DD9C7B00CAE09E /* libInvitereferrals_4_4_2.a */; };
-		9DCA145B24DD9C7C00CAE09E /* IR_UserResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DCA145824DD9C7B00CAE09E /* IR_UserResources.plist */; };
-		9DCA145C24DD9C7C00CAE09E /* InviteReferrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DCA145924DD9C7B00CAE09E /* InviteReferrals.h */; };
+		9D688C6C24E5826800A889F9 /* libInvitereferrals_4_4_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D688C6924E5826800A889F9 /* libInvitereferrals_4_4_3.a */; };
+		9D688C6D24E5826800A889F9 /* IR_UserResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D688C6A24E5826800A889F9 /* IR_UserResources.plist */; };
+		9D688C6E24E5826800A889F9 /* InviteReferrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D688C6B24E5826800A889F9 /* InviteReferrals.h */; };
 		ABBE8F5E6400904E43DF6117C3768AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DB63AE2B88A486FBB714D1A58B4688D7 /* InviteReferrals-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42616C52AFE4CC1EF2639D74B92A3F9A /* InviteReferrals-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E329C61DF0C198A9456748D2AB5DF73E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -67,11 +67,11 @@
 		6CBB2B3DC217805FEFADF1167E2CEC2C /* Pods-InviteReferrals_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InviteReferrals_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6DF1A8E5EC45227ADC83C3CB497E3B6D /* InviteReferrals.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = InviteReferrals.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		75DCC69340612144C4213F8FB2287DD1 /* Pods-InviteReferrals_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InviteReferrals_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9D688C6924E5826800A889F9 /* libInvitereferrals_4_4_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInvitereferrals_4_4_3.a; sourceTree = "<group>"; };
+		9D688C6A24E5826800A889F9 /* IR_UserResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IR_UserResources.plist; sourceTree = "<group>"; };
+		9D688C6B24E5826800A889F9 /* InviteReferrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteReferrals.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB3D85532BB2EEBA645EB93EFFBC8DA /* Pods-InviteReferrals_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InviteReferrals_Tests-dummy.m"; sourceTree = "<group>"; };
-		9DCA145724DD9C7B00CAE09E /* libInvitereferrals_4_4_2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInvitereferrals_4_4_2.a; sourceTree = "<group>"; };
-		9DCA145824DD9C7B00CAE09E /* IR_UserResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IR_UserResources.plist; sourceTree = "<group>"; };
-		9DCA145924DD9C7B00CAE09E /* InviteReferrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteReferrals.h; sourceTree = "<group>"; };
 		ADFF025166AE864F37B885A606D2B19B /* Pods-InviteReferrals_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InviteReferrals_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6D3E6339D24E1F86B498F99DA3D409C /* InviteReferrals-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InviteReferrals-prefix.pch"; sourceTree = "<group>"; };
 		C84C4616CDF4AB3FE8121B565916A760 /* Pods-InviteReferrals_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InviteReferrals_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DCA145A24DD9C7C00CAE09E /* libInvitereferrals_4_4_2.a in Frameworks */,
 				E329C61DF0C198A9456748D2AB5DF73E /* Foundation.framework in Frameworks */,
+				9D688C6C24E5826800A889F9 /* libInvitereferrals_4_4_3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,9 +124,9 @@
 		2520BDFF242259D8001F1CAB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9DCA145924DD9C7B00CAE09E /* InviteReferrals.h */,
-				9DCA145824DD9C7B00CAE09E /* IR_UserResources.plist */,
-				9DCA145724DD9C7B00CAE09E /* libInvitereferrals_4_4_2.a */,
+				9D688C6B24E5826800A889F9 /* InviteReferrals.h */,
+				9D688C6A24E5826800A889F9 /* IR_UserResources.plist */,
+				9D688C6924E5826800A889F9 /* libInvitereferrals_4_4_3.a */,
 				2520BE02242259D8001F1CAB /* .gitkeep */,
 			);
 			name = Classes;
@@ -254,7 +254,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DCA145C24DD9C7C00CAE09E /* InviteReferrals.h in Headers */,
+				9D688C6E24E5826800A889F9 /* InviteReferrals.h in Headers */,
 				DB63AE2B88A486FBB714D1A58B4688D7 /* InviteReferrals-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,7 +344,7 @@
 				2520BE04242259D8001F1CAB /* sms.png in Resources */,
 				2520BE06242259D8001F1CAB /* share@2x.png in Resources */,
 				2520BE09242259D8001F1CAB /* share@3x.png in Resources */,
-				9DCA145B24DD9C7C00CAE09E /* IR_UserResources.plist in Resources */,
+				9D688C6D24E5826800A889F9 /* IR_UserResources.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
