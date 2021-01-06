@@ -23,7 +23,7 @@
 		788D009140B85AC46779B2AA0A5838D1 /* Pods-InviteReferrals_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D85532BB2EEBA645EB93EFFBC8DA /* Pods-InviteReferrals_Tests-dummy.m */; };
 		9D5F565125A59BD80019ADE4 /* InviteReferrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5F564E25A59BD80019ADE4 /* InviteReferrals.h */; };
 		9D5F565325A59BD80019ADE4 /* IR_UserResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D5F565025A59BD80019ADE4 /* IR_UserResources.plist */; };
-		9D5F565925A5A25F0019ADE4 /* invitereferrals_4_5_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5F565825A5A25F0019ADE4 /* invitereferrals_4_5_0.a */; };
+		9D5F565F25A5A39F0019ADE4 /* libInvitereferrals_4_5_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5F565E25A5A39F0019ADE4 /* libInvitereferrals_4_5_0.a */; };
 		ABBE8F5E6400904E43DF6117C3768AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DB63AE2B88A486FBB714D1A58B4688D7 /* InviteReferrals-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42616C52AFE4CC1EF2639D74B92A3F9A /* InviteReferrals-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E329C61DF0C198A9456748D2AB5DF73E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -69,7 +69,7 @@
 		75DCC69340612144C4213F8FB2287DD1 /* Pods-InviteReferrals_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InviteReferrals_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9D5F564E25A59BD80019ADE4 /* InviteReferrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteReferrals.h; sourceTree = "<group>"; };
 		9D5F565025A59BD80019ADE4 /* IR_UserResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IR_UserResources.plist; sourceTree = "<group>"; };
-		9D5F565825A5A25F0019ADE4 /* invitereferrals_4_5_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = invitereferrals_4_5_0.a; sourceTree = "<group>"; };
+		9D5F565E25A5A39F0019ADE4 /* libInvitereferrals_4_5_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInvitereferrals_4_5_0.a; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB3D85532BB2EEBA645EB93EFFBC8DA /* Pods-InviteReferrals_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InviteReferrals_Tests-dummy.m"; sourceTree = "<group>"; };
 		ADFF025166AE864F37B885A606D2B19B /* Pods-InviteReferrals_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InviteReferrals_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E329C61DF0C198A9456748D2AB5DF73E /* Foundation.framework in Frameworks */,
-				9D5F565925A5A25F0019ADE4 /* invitereferrals_4_5_0.a in Frameworks */,
+				9D5F565F25A5A39F0019ADE4 /* libInvitereferrals_4_5_0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +124,7 @@
 		2520BDFF242259D8001F1CAB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9D5F565825A5A25F0019ADE4 /* invitereferrals_4_5_0.a */,
+				9D5F565E25A5A39F0019ADE4 /* libInvitereferrals_4_5_0.a */,
 				9D5F564E25A59BD80019ADE4 /* InviteReferrals.h */,
 				9D5F565025A59BD80019ADE4 /* IR_UserResources.plist */,
 				2520BE02242259D8001F1CAB /* .gitkeep */,
