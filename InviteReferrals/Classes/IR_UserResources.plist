@@ -11,6 +11,8 @@
 	</dict>
 	<key>irStrings</key>
 	<dict>
+		<key>irSetLoginScreenBackgroundImageName</key>
+		<string></string>
 		<key>irSetNavigationBarBackButtonImage</key>
 		<string></string>
 		<key>irSetCampaignOrUserErrorAlertTitle</key>
@@ -18,12 +20,6 @@
 		<key>irSetCampaignOrUserErrorAlertMessage</key>
 		<string></string>
 		<key>irSetCampaignOrUserErrorAlertButtonTitle</key>
-		<string></string>
-		<key>irSetConnectionLostErrorAlertTitle</key>
-		<string></string>
-		<key>irSetConnectionLostErrorAlertMessage</key>
-		<string></string>
-		<key>irSetLoginScreenBackgroundImageName</key>
 		<string></string>
 		<key>irSetSharingScreenBackgroundImageName</key>
 		<string></string>
@@ -70,8 +66,6 @@
 		<key>irSetSharingLinkFontName</key>
 		<string></string>
 		<key>irSetLinkslabelTextFontName</key>
-		<string></string>
-		<key>irSetSharingLinkCopiedToastMessageText</key>
 		<string></string>
 	</dict>
 	<key>irNumbers</key>
