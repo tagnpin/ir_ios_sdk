@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'InviteReferrals'
-  s.version          = '4.5.1'
+  s.version          = '4.5.0'
   s.summary          = 'InviteReferrals is best referral software for mobile application'
 
 # This description is used to generate tags and improve search results.
