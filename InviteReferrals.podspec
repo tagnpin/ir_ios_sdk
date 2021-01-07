@@ -29,11 +29,14 @@ InviteReferrals is a powerful and yet simple to integrate referral software that
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :ios
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'InviteReferrals/Classes/**/*.h'
   s.resources = ['InviteReferrals/Assets/**/*.png', 'InviteReferrals/Classes/IR_UserResources.plist']
   s.frameworks = 'Foundation', 'UIKit', 'Security', 'Social', 'MessageUI'
-  s.vendored_library = 'InviteReferrals/Classes/**/*.a'
+  s.ios.vendored_libraries = 'InviteReferrals/Classes/libInvitereferrals_4_5_1.a'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+  s.pod_target_xcconfig = {
+       'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+     }
+   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
-
