@@ -35,9 +35,4 @@ InviteReferrals is a powerful and yet simple to integrate referral software that
   s.frameworks = 'Foundation', 'UIKit', 'Security', 'Social', 'MessageUI'
   s.vendored_library = 'InviteReferrals/Classes/**/*.a'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
-  s.pod_target_xcconfig = {
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-    }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
-
