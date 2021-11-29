@@ -1,12 +1,13 @@
 //
-//  Created by Siddharth Gupta
+//  InviteReferrals.h
+//  InviteReferrals
 //
+//  Created by Tagnpin Web Solutions LLP Macbook Air-3 on 05/08/21.
+//  Copyright © 2021 Tagnpin Web Solutions LLP. All rights reserved.
 //
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <Security/Security.h>
-
-
 
 typedef void(^SharingDetails)(NSMutableDictionary* _Nullable);
 
@@ -20,6 +21,7 @@ typedef void(^getReferrerCodeCompletionHandler)(NSString *_Nullable);
 
 -(void)HandleDoneButtonActionWithUserInfo:(NSMutableDictionary *_Nullable)userInfo;
 @end
+
 
 
 @interface InviteReferrals : NSObject
@@ -58,6 +60,8 @@ typedef void(^getReferrerCodeCompletionHandler)(NSString *_Nullable);
 +(void)setLocalizationLanguage:(NSString *_Nullable)irLanguageCode;
 
 +(void)getReferringParams:(referringParams _Nullable )referringParameters;
+
++(void)logout;
 
 
 +(void)setDefaultNavigationController:(UINavigationController *_Nullable)navController BarStyle:(UIBarStyle)navBarStyle PreferedStatusBarStyleLightContent:(BOOL)navCustomStatusBarStyleLightContent BarSetTranslucent:(BOOL)navSetBarTranslucent BarLoginScreenTitle:(NSString *_Nullable)navBarLoginScreenTitle BarShareScreenTitle:(NSString *_Nullable)navBarShareScreenTitle BarInActiveCampaignScreenTitle:(NSString *_Nullable)navBarInActiveCampaignScreenTitle BarTitleTextAttributes:(NSDictionary<NSAttributedStringKey,id> * _Nullable)navBarTitleTextAttributes BarTitleColor:(NSString *_Nullable)navBarTitleColor BarBackground:(NSString *_Nullable)navBarBackground BarButtonPosition:(NSString *_Nullable)navBarButtonPosition BarButtonTitle:(NSString *_Nullable)navBarButtonTitle BarTextFontName:(NSString *_Nullable)navBarTextFontName BarTitleFontSize:(float)navBarTitleFontSize BarButtonTextAttributes:(NSDictionary<NSAttributedStringKey,id> * _Nullable)navBarButtonTextAttributes BarButtonFontSize:(float)navBarButtonFontSize BarButtonIconWidth:(float)navBarButtonIconWidth BarButtonIconHeight:(float)navBarButtonIconHeight BarButtonTintColor:(NSString *_Nullable)navBarButtonTintColor;
