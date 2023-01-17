@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		13E242B94B5109A1B6B157F88A0F75B4 /* Pods-InviteReferrals_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134A9669AE33150EEA93160518C39CDD /* Pods-InviteReferrals_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2520BE04242259D8001F1CAB /* sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF4242259D8001F1CAB /* sms.png */; };
-		2520BE05242259D8001F1CAB /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF5242259D8001F1CAB /* mail.png */; };
-		2520BE06242259D8001F1CAB /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF6242259D8001F1CAB /* share@2x.png */; };
-		2520BE07242259D8001F1CAB /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF7242259D8001F1CAB /* fb.png */; };
 		2520BE08242259D8001F1CAB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF8242259D8001F1CAB /* .gitkeep */; };
-		2520BE09242259D8001F1CAB /* share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF9242259D8001F1CAB /* share@3x.png */; };
-		2520BE0A242259D8001F1CAB /* whatsappactivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFA242259D8001F1CAB /* whatsappactivity@3x.png */; };
-		2520BE0B242259D8001F1CAB /* whatsappactivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFB242259D8001F1CAB /* whatsappactivity@2x.png */; };
-		2520BE0C242259D8001F1CAB /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFC242259D8001F1CAB /* share.png */; };
-		2520BE0D242259D8001F1CAB /* whatsappactivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFD242259D8001F1CAB /* whatsappactivity.png */; };
-		2520BE0E242259D8001F1CAB /* WhatsApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDFE242259D8001F1CAB /* WhatsApp.png */; };
 		2520BE11242259D8001F1CAB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2520BE02242259D8001F1CAB /* .gitkeep */; };
-		351CE7EF2762069A00364651 /* InviteReferrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 351CE7EC2762069900364651 /* InviteReferrals.h */; };
-		351CE7F02762069A00364651 /* libInvitereferrals_4_5_4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351CE7ED2762069A00364651 /* libInvitereferrals_4_5_4.a */; };
-		351CE7F12762069A00364651 /* IR_UserResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 351CE7EE2762069A00364651 /* IR_UserResources.plist */; };
+		3545FBD82976E4E200FC4B27 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 3545FBD72976E4E200FC4B27 /* share.png */; };
+		3557A1D72976E22A00E74434 /* IR_UserResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3557A1D42976E22A00E74434 /* IR_UserResources.plist */; };
+		3557A1D82976E22A00E74434 /* libInvitereferrals_5_0_1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3557A1D52976E22A00E74434 /* libInvitereferrals_5_0_1.a */; };
+		3557A1D92976E22A00E74434 /* InviteReferrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 3557A1D62976E22A00E74434 /* InviteReferrals.h */; };
+		3557A1E52976E23700E74434 /* WhatsApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 3557A1DB2976E23600E74434 /* WhatsApp.png */; };
+		3557A1E62976E23700E74434 /* whatsappactivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 3557A1DC2976E23700E74434 /* whatsappactivity.png */; };
+		3557A1E72976E23700E74434 /* sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 3557A1DD2976E23700E74434 /* sms.png */; };
+		3557A1E82976E23700E74434 /* whatsappactivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3557A1DE2976E23700E74434 /* whatsappactivity@3x.png */; };
+		3557A1E92976E23700E74434 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 3557A1DF2976E23700E74434 /* mail.png */; };
+		3557A1EA2976E23700E74434 /* copy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3557A1E02976E23700E74434 /* copy@2x.png */; };
+		3557A1EB2976E23700E74434 /* whatsappactivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3557A1E12976E23700E74434 /* whatsappactivity@2x.png */; };
+		3557A1EC2976E23700E74434 /* copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3557A1E22976E23700E74434 /* copy.png */; };
+		3557A1ED2976E23700E74434 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3557A1E32976E23700E74434 /* fb.png */; };
 		788D009140B85AC46779B2AA0A5838D1 /* Pods-InviteReferrals_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D85532BB2EEBA645EB93EFFBC8DA /* Pods-InviteReferrals_Tests-dummy.m */; };
 		ABBE8F5E6400904E43DF6117C3768AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DB63AE2B88A486FBB714D1A58B4688D7 /* InviteReferrals-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42616C52AFE4CC1EF2639D74B92A3F9A /* InviteReferrals-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,24 +43,24 @@
 /* Begin PBXFileReference section */
 		10BA39E03BC8F815BDF6357816EC0A81 /* Pods-InviteReferrals_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InviteReferrals_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		134A9669AE33150EEA93160518C39CDD /* Pods-InviteReferrals_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InviteReferrals_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2520BDF4242259D8001F1CAB /* sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms.png; sourceTree = "<group>"; };
-		2520BDF5242259D8001F1CAB /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
-		2520BDF6242259D8001F1CAB /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
-		2520BDF7242259D8001F1CAB /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
 		2520BDF8242259D8001F1CAB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		2520BDF9242259D8001F1CAB /* share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@3x.png"; sourceTree = "<group>"; };
-		2520BDFA242259D8001F1CAB /* whatsappactivity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsappactivity@3x.png"; sourceTree = "<group>"; };
-		2520BDFB242259D8001F1CAB /* whatsappactivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsappactivity@2x.png"; sourceTree = "<group>"; };
-		2520BDFC242259D8001F1CAB /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
-		2520BDFD242259D8001F1CAB /* whatsappactivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatsappactivity.png; sourceTree = "<group>"; };
-		2520BDFE242259D8001F1CAB /* WhatsApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhatsApp.png; sourceTree = "<group>"; };
 		2520BE02242259D8001F1CAB /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		2A20C61572EA8C040BF9F8094A55056D /* InviteReferrals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InviteReferrals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32D3FFEF75AE2940080A12D5AAD55AAA /* Pods_InviteReferrals_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InviteReferrals_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		351CE7EC2762069900364651 /* InviteReferrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteReferrals.h; sourceTree = "<group>"; };
-		351CE7ED2762069A00364651 /* libInvitereferrals_4_5_4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInvitereferrals_4_5_4.a; sourceTree = "<group>"; };
-		351CE7EE2762069A00364651 /* IR_UserResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IR_UserResources.plist; sourceTree = "<group>"; };
+		3545FBD72976E4E200FC4B27 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		3557A1D42976E22A00E74434 /* IR_UserResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IR_UserResources.plist; sourceTree = "<group>"; };
+		3557A1D52976E22A00E74434 /* libInvitereferrals_5_0_1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInvitereferrals_5_0_1.a; sourceTree = "<group>"; };
+		3557A1D62976E22A00E74434 /* InviteReferrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteReferrals.h; sourceTree = "<group>"; };
+		3557A1DB2976E23600E74434 /* WhatsApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhatsApp.png; sourceTree = "<group>"; };
+		3557A1DC2976E23700E74434 /* whatsappactivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatsappactivity.png; sourceTree = "<group>"; };
+		3557A1DD2976E23700E74434 /* sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms.png; sourceTree = "<group>"; };
+		3557A1DE2976E23700E74434 /* whatsappactivity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsappactivity@3x.png"; sourceTree = "<group>"; };
+		3557A1DF2976E23700E74434 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		3557A1E02976E23700E74434 /* copy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copy@2x.png"; sourceTree = "<group>"; };
+		3557A1E12976E23700E74434 /* whatsappactivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsappactivity@2x.png"; sourceTree = "<group>"; };
+		3557A1E22976E23700E74434 /* copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copy.png; sourceTree = "<group>"; };
+		3557A1E32976E23700E74434 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
 		42616C52AFE4CC1EF2639D74B92A3F9A /* InviteReferrals-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InviteReferrals-umbrella.h"; sourceTree = "<group>"; };
 		4C1A2EDA8000C61D81065C6FCB6AA3AD /* Pods-InviteReferrals_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InviteReferrals_Tests.modulemap"; sourceTree = "<group>"; };
 		575849887FDB3D3C1B77FB2C0FDD115F /* InviteReferrals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InviteReferrals.release.xcconfig; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3557A1D82976E22A00E74434 /* libInvitereferrals_5_0_1.a in Frameworks */,
 				E329C61DF0C198A9456748D2AB5DF73E /* Foundation.framework in Frameworks */,
-				351CE7F02762069A00364651 /* libInvitereferrals_4_5_4.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,17 +105,17 @@
 		2520BDF3242259D8001F1CAB /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				2520BDF4242259D8001F1CAB /* sms.png */,
-				2520BDF5242259D8001F1CAB /* mail.png */,
-				2520BDF6242259D8001F1CAB /* share@2x.png */,
-				2520BDF7242259D8001F1CAB /* fb.png */,
+				3557A1E22976E23700E74434 /* copy.png */,
+				3557A1E02976E23700E74434 /* copy@2x.png */,
+				3545FBD72976E4E200FC4B27 /* share.png */,
+				3557A1E32976E23700E74434 /* fb.png */,
+				3557A1DF2976E23700E74434 /* mail.png */,
+				3557A1DD2976E23700E74434 /* sms.png */,
+				3557A1DB2976E23600E74434 /* WhatsApp.png */,
+				3557A1DC2976E23700E74434 /* whatsappactivity.png */,
+				3557A1E12976E23700E74434 /* whatsappactivity@2x.png */,
+				3557A1DE2976E23700E74434 /* whatsappactivity@3x.png */,
 				2520BDF8242259D8001F1CAB /* .gitkeep */,
-				2520BDF9242259D8001F1CAB /* share@3x.png */,
-				2520BDFA242259D8001F1CAB /* whatsappactivity@3x.png */,
-				2520BDFB242259D8001F1CAB /* whatsappactivity@2x.png */,
-				2520BDFC242259D8001F1CAB /* share.png */,
-				2520BDFD242259D8001F1CAB /* whatsappactivity.png */,
-				2520BDFE242259D8001F1CAB /* WhatsApp.png */,
 			);
 			name = Assets;
 			path = InviteReferrals/Assets;
@@ -124,9 +124,9 @@
 		2520BDFF242259D8001F1CAB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				351CE7EC2762069900364651 /* InviteReferrals.h */,
-				351CE7EE2762069A00364651 /* IR_UserResources.plist */,
-				351CE7ED2762069A00364651 /* libInvitereferrals_4_5_4.a */,
+				3557A1D62976E22A00E74434 /* InviteReferrals.h */,
+				3557A1D42976E22A00E74434 /* IR_UserResources.plist */,
+				3557A1D52976E22A00E74434 /* libInvitereferrals_5_0_1.a */,
 				2520BE02242259D8001F1CAB /* .gitkeep */,
 			);
 			name = Classes;
@@ -254,7 +254,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351CE7EF2762069A00364651 /* InviteReferrals.h in Headers */,
+				3557A1D92976E22A00E74434 /* InviteReferrals.h in Headers */,
 				DB63AE2B88A486FBB714D1A58B4688D7 /* InviteReferrals-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,19 +332,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2520BE0A242259D8001F1CAB /* whatsappactivity@3x.png in Resources */,
-				2520BE0C242259D8001F1CAB /* share.png in Resources */,
-				2520BE0B242259D8001F1CAB /* whatsappactivity@2x.png in Resources */,
-				2520BE05242259D8001F1CAB /* mail.png in Resources */,
-				2520BE07242259D8001F1CAB /* fb.png in Resources */,
+				3557A1ED2976E23700E74434 /* fb.png in Resources */,
+				3557A1E62976E23700E74434 /* whatsappactivity.png in Resources */,
+				3557A1E72976E23700E74434 /* sms.png in Resources */,
+				3557A1EC2976E23700E74434 /* copy.png in Resources */,
+				3557A1E92976E23700E74434 /* mail.png in Resources */,
+				3557A1E82976E23700E74434 /* whatsappactivity@3x.png in Resources */,
 				2520BE08242259D8001F1CAB /* .gitkeep in Resources */,
-				2520BE0D242259D8001F1CAB /* whatsappactivity.png in Resources */,
+				3557A1D72976E22A00E74434 /* IR_UserResources.plist in Resources */,
 				2520BE11242259D8001F1CAB /* .gitkeep in Resources */,
-				2520BE0E242259D8001F1CAB /* WhatsApp.png in Resources */,
-				2520BE04242259D8001F1CAB /* sms.png in Resources */,
-				2520BE06242259D8001F1CAB /* share@2x.png in Resources */,
-				2520BE09242259D8001F1CAB /* share@3x.png in Resources */,
-				351CE7F12762069A00364651 /* IR_UserResources.plist in Resources */,
+				3557A1EA2976E23700E74434 /* copy@2x.png in Resources */,
+				3557A1E52976E23700E74434 /* WhatsApp.png in Resources */,
+				3557A1EB2976E23700E74434 /* whatsappactivity@2x.png in Resources */,
+				3545FBD82976E4E200FC4B27 /* share.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,69 +2,87 @@
 //  InviteReferrals.h
 //  InviteReferrals
 //
-//  Created by Tagnpin Web Solutions LLP Macbook Air-3 on 05/08/21.
-//  Copyright © 2021 Tagnpin Web Solutions LLP. All rights reserved.
+//  Created by Tagnpin Web Solutions LLP Macbook Air-3 on 23/03/22.
+//  Copyright © 2022 Tagnpin Web Solutions LLP. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+//#import "INVRSDKConfig.h"
 
-typedef void(^SharingDetails)(NSMutableDictionary* _Nullable);
+typedef void(^campaignCompletion)(NSDictionary*);
+typedef void(^trackingCompletionHandler)(NSMutableDictionary *);
+typedef void(^referringParams)(NSDictionary*);
+typedef void(^getReferrerCodeCompletionHandler)(NSString *);
+typedef void(^sharingDetails)(NSDictionary*);
 
-typedef void(^referringParams)(NSDictionary* _Nullable);
-typedef void(^TrackingCompletionHandler)(NSMutableDictionary *_Nullable);
-typedef void(^getReferrerCodeCompletionHandler)(NSString *_Nullable);
 
 @protocol InviteReferralsDelegate <NSObject>
 @optional
--(void)InviteReferralsTrackingFinishedforEventname:(NSString *_Nullable)eventName withResponse: (NSMutableDictionary *_Nullable)trackingResponse;
+-(void)InviteReferralsTrackingFinishedforEventInfo: (NSDictionary *)trackingResponse;
+-(void)InviteReferralsOnSharingIconClickCallback:(NSDictionary *)sharingIconClickInfo;
+-(void)InviteReferralsLeadSentResponseCallback:(NSDictionary *)sentLeadResponse;
 
--(void)HandleDoneButtonActionWithUserInfo:(NSMutableDictionary *_Nullable)userInfo;
+-(void)InviteReferralsOnDoneButtonActionWithUserInfo:(NSDictionary *)userInfo;
+@end
+
+@interface IRCampaignInfo : NSObject
+@property (nonatomic, assign)NSInteger campaignID;
+@property (nonatomic, assign)NSInteger templateID;
+@end
+
+@interface IRUserInfo : NSObject
+@property (nonatomic, strong)NSString *name;
+@property (nonatomic, strong)NSString *email;
+@property (nonatomic, strong)NSString *mobileNo;
+@property (nonatomic, strong)NSString *subscriptionID;
+@property (nonatomic, strong)NSString *customValueOne;
+@property (nonatomic, strong)NSString *customValueTwo;
+@end
+
+@interface IREventInfo : NSObject
+@property (nonatomic, strong)NSString *eventName;
+@property (nonatomic, strong)NSString *orderID;
+@property (nonatomic, assign)double purchaseValue;
+@property (nonatomic, strong)NSString *referrerCode;
+@property (nonatomic, strong)NSString *uniqueCode;
 @end
 
 
-
 @interface InviteReferrals : NSObject
-@property (nonatomic, weak)id <InviteReferralsDelegate> _Nullable delegate;
 
-+(instancetype _Nullable)sharedInstance;
+@property (nonatomic, weak)id <InviteReferralsDelegate> delegate;
++(instancetype)sharedInstance;
 
-+ (void)setupWithBrandId: (int) brandId encryptedKey: (NSString * _Nonnull) encryptedKey;
+#pragma mark - INITIAL INTEGRATION METHODS
 
-+ (void) setupUserID:(NSString*_Nullable)email mobile:(NSString*_Nullable)mobile name:(NSString*_Nullable)name gender:(NSString*_Nullable)gender shareLink:(NSString*_Nullable)shareLink shareTitle:(NSString*_Nullable)shareTitle shareDesc:(NSString*_Nullable)shareDesc shareImg:(NSString*_Nullable)shareImg customValue:(NSString*_Nullable)customValue campaignID:(NSString*_Nullable)campaignID flag:(NSString *_Nullable)flag SubscriptionID:(NSString *_Nullable)subscriptionID;
+/* Initialise the SDK using setupWithBrandId() function   */
+-(void)setupWithBrandId:(NSInteger)brandId encryptedKey:(NSString *)encryptedKey;
 
-+(void)launch:(NSString*_Nullable)campaignID Email:(NSString*_Nullable)email mobile:(NSString*_Nullable)mobile name:(NSString*_Nullable)name SubscriptionID:(NSString *_Nullable)subscriptionID;
+/* Deeplinking Delegate Function   */
+-(void)openUrlWithUrl:(NSURL *)url;
 
-+(void)showSharePopup:(NSString*_Nullable)page Email:(NSString*_Nullable)email mobile:(NSString*_Nullable)mobile name:(NSString*_Nullable)name SubscriptionID:(NSString *_Nullable)subscriptionID;
-
-+(void)welcomeMessage;
-
-+(void)tracking:(NSString*_Nullable)eventName orderID:(NSString*_Nullable)orderID purchaseValue:(NSString*_Nullable)purchaseValue email:(NSString *_Nullable)email mobile:(NSString *_Nullable)mobile name:(NSString *_Nullable)name referCode:(NSString *_Nullable)ReferCode uniqueCode:(NSString *_Nullable)unique_code isDebugMode:(BOOL)debugMode ComplitionHandler:(TrackingCompletionHandler _Nullable)complitionHandler;
-
-//+(void)application:(UIApplication *_Nullable)application openURL:(NSURL *_Nullable)url sourceApplication:(NSString *_Nullable)sourceApplication annotation:(id   _Nullable )annotation;
-
-+(void)OpenUrlWithApplication:(UIApplication *_Nullable)application Url:(NSURL *_Nullable)url;
--(void)OpenUrlWithUrl:(NSURL *_Nullable)url;
+/*App-Universal-Link Delegate Function */
+-(void)continueUserActivityWith:(NSUserActivity*)userActivity;
 
 
-+(void)getReferrerCode:(getReferrerCodeCompletionHandler _Nullable)referrerCode;
+#pragma mark - USER DETAILS AND CAMPAIGN METHODS
 
-+(void)GetShareDataWithCampaignID:(NSString *_Nullable)campaignID Email:(NSString *_Nullable)email mobile:(NSString *_Nullable)mobile name:(NSString*_Nullable)name  SubscriptionID:(NSString *_Nullable)irSubscriptionID ShowErrorAlerts:(BOOL)irShowAlerts ShowActivityIndicatorViewWhileLoading:(BOOL)irShowActivityIndicator SharingDetails:(SharingDetails _Nullable)irSharingDetails;
+/*UserDetails Function */
 
-//+(void)setDelegate:(id _Nullable)aDelegate;
+-(void)campaign:(IRCampaignInfo*)campaignInfo userInfo:(IRUserInfo *)userInfo campaignCompletion:(campaignCompletion)completionHandler;
 
-//+(void)sendDataToDelegate:(NSMutableDictionary *_Nullable)userInfo;
+-(void)campaignPopupForRuleName:(NSString *)ruleName campaignInfo:(IRCampaignInfo*)campaignInfo userInfo:(IRUserInfo *)userInfo;
 
-+(void)continueUserActivityWith:(NSUserActivity *_Nullable)userActivity;
+-(void)trackingforEventInfo:(IREventInfo*)eventInfo userInfo:(IRUserInfo *)userInfo;
 
-+(void)setLocalizationLanguage:(NSString *_Nullable)irLanguageCode;
+-(void)getSharingDetailsWithCampaignInfo:(IRCampaignInfo*)campaignInfo userInfo:(IRUserInfo *)userInfo sharingData:(sharingDetails)irSharingDetails;
 
-+(void)getReferringParams:(referringParams _Nullable )referringParameters;
+#pragma mark - OTHER USEFUL METHODS
 
-+(void)logout;
-
-
-+(void)setDefaultNavigationController:(UINavigationController *_Nullable)navController BarStyle:(UIBarStyle)navBarStyle PreferedStatusBarStyleLightContent:(BOOL)navCustomStatusBarStyleLightContent BarSetTranslucent:(BOOL)navSetBarTranslucent BarLoginScreenTitle:(NSString *_Nullable)navBarLoginScreenTitle BarShareScreenTitle:(NSString *_Nullable)navBarShareScreenTitle BarInActiveCampaignScreenTitle:(NSString *_Nullable)navBarInActiveCampaignScreenTitle BarTitleTextAttributes:(NSDictionary<NSAttributedStringKey,id> * _Nullable)navBarTitleTextAttributes BarTitleColor:(NSString *_Nullable)navBarTitleColor BarBackground:(NSString *_Nullable)navBarBackground BarButtonPosition:(NSString *_Nullable)navBarButtonPosition BarButtonTitle:(NSString *_Nullable)navBarButtonTitle BarTextFontName:(NSString *_Nullable)navBarTextFontName BarTitleFontSize:(float)navBarTitleFontSize BarButtonTextAttributes:(NSDictionary<NSAttributedStringKey,id> * _Nullable)navBarButtonTextAttributes BarButtonFontSize:(float)navBarButtonFontSize BarButtonIconWidth:(float)navBarButtonIconWidth BarButtonIconHeight:(float)navBarButtonIconHeight BarButtonTintColor:(NSString *_Nullable)navBarButtonTintColor;
-
+-(void)showWelcomeMessage;
+-(void)getReferrerCode:(getReferrerCodeCompletionHandler)referrerCode;
+-(void)getReferringParams:(referringParams)referringParameters;
+-(void)setLocalizationLanguage:(NSString *)irLanguageCode;
+-(void)logout;
 
 @end

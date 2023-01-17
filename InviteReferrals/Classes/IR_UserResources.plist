@@ -8,12 +8,32 @@
 		<true/>
 		<key>irSetHideSharingButtonsAppNameText</key>
 		<true/>
+		<key>irSetScreensStatusBarStyleLightContent</key>
+		<false/>
+		<key>irSetScreensNavigationBarIsTranslucent</key>
+		<false/>
+		<key>irSetNavigationBarBackButtonPositionLeft</key>
+		<false/>
 	</dict>
 	<key>irStrings</key>
 	<dict>
 		<key>irSetLoginScreenBackgroundImageName</key>
 		<string></string>
 		<key>irSetNavigationBarBackButtonImage</key>
+		<string></string>
+		<key>irSetNavigationBarBackButtonTitle</key>
+		<string></string>
+		<key>irSetNavigationBarTextFontName</key>
+		<string></string>
+		<key>irSetNavigationBarDoneButtonTextFontName</key>
+		<string></string>
+		<key>irSetNavigationBarBackground</key>
+		<string></string>
+		<key>irSetLoginScreenNavigationBarTitleText</key>
+		<string></string>
+		<key>irSetShareScreenNavigationBarTitleText</key>
+		<string></string>
+		<key>irSetInActiveCampaignScreenNavBarTitleText</key>
 		<string></string>
 		<key>irSetCampaignOrUserErrorAlertTitle</key>
 		<string></string>
@@ -34,6 +54,10 @@
 		<key>irSetPhoneFieldPlaceholderText</key>
 		<string></string>
 		<key>irSetEmailFieldPlaceholderText</key>
+		<string></string>
+		<key>irSetSharingButtonsHeadingLabelTextFontName</key>
+		<string></string>
+		<key>irSetSharingButtonsHeadingText</key>
 		<string></string>
 		<key>irSetMailShareButtonImageName</key>
 		<string></string>
@@ -57,7 +81,17 @@
 		<string></string>
 		<key>irSetShareButtonImageName</key>
 		<string></string>
+		<key>irSetCopyButtonImageName</key>
+		<string></string>
 		<key>irSetShareButtonsTextFontName</key>
+		<string></string>
+		<key>irSetLeadFormHeadingText</key>
+		<string></string>
+		<key>irSetLeadFormHeadingTextFontName</key>
+		<string></string>
+		<key>irSetLeadFormSubmitButtonTitleText</key>
+		<string></string>
+		<key>irSetLeadFormSubmitButtonTextFontName</key>
 		<string></string>
 		<key>irSetReferralStatsButtonFontName</key>
 		<string></string>
@@ -67,10 +101,18 @@
 		<string></string>
 		<key>irSetLinkslabelTextFontName</key>
 		<string></string>
+		<key>irSetSharingLinkCopiedToastMessageText</key>
+		<string></string>
+		<key>irSetLeadSentResponseToastMessageText</key>
+		<string></string>
 	</dict>
 	<key>irNumbers</key>
 	<dict>
 		<key>irSetNavigationBarDoneButtonImageSize</key>
+		<integer>0</integer>
+		<key>irSetNavigationBarDoneButtonTextFontSize</key>
+		<integer>0</integer>
+		<key>irSetNavigationBarTextFontSize</key>
 		<integer>0</integer>
 		<key>irSetMobileNumberMinLength</key>
 		<integer>10</integer>
@@ -84,6 +126,16 @@
 		<integer>0</integer>
 		<key>irSetTextFieldsFontSize</key>
 		<integer>0</integer>
+		<key>irSetTextFieldsCornerRadius</key>
+		<integer>0</integer>
+		<key>irSetTextFieldsBorderWidth</key>
+		<integer>0</integer>
+		<key>irSetSharingButtonsHeadingLabelTextFontSize</key>
+		<integer>0</integer>
+		<key>irSetSharingButtonsHeadingLabelTopMargin</key>
+		<integer>0</integer>
+		<key>irSetSharingButtonsHeadingLabelBottomMargin</key>
+		<integer>0</integer>
 		<key>irSetSharingButtonsViewTopMargin</key>
 		<integer>0</integer>
 		<key>irSetSharingButtonsViewBottomMargin</key>
@@ -93,6 +145,8 @@
 		<key>irSetShareButtonsTextFontSize</key>
 		<integer>0</integer>
 		<key>irSetShareButtonsImageAndTextPadding</key>
+		<integer>0</integer>
+		<key>irSetLeadFormSubmitButtonTextFontSize</key>
 		<integer>0</integer>
 		<key>irSetReferralsStatsButtonTopMargin</key>
 		<integer>0</integer>
@@ -125,7 +179,9 @@
 	<dict>
 		<key>irSetViewControllerMainViewBgColor</key>
 		<string></string>
-		<key>IR_SetNavigationDoneButtonTextColor</key>
+		<key>irSetNavigationDoneButtonTextColor</key>
+		<string></string>
+		<key>irSetNavigationBarTitleTextTextColor</key>
 		<string></string>
 		<key>irSetRegisterButtonTextColor</key>
 		<string></string>
@@ -138,6 +194,10 @@
 		<key>irSetTextFieldsTextColor</key>
 		<string></string>
 		<key>irSetTextFieldsPlaceHolderTextColor</key>
+		<string></string>
+		<key>irSetTextFieldsBorderColor</key>
+		<string></string>
+		<key>irSetSharingButtonsHeadingLabelTextColor</key>
 		<string></string>
 		<key>irSetSharingLinkBoxBorderColor</key>
 		<string></string>
