@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import "INVRSDKConfig.h"
 
 typedef void(^campaignCompletion)(NSDictionary*);
 typedef void(^trackingCompletionHandler)(NSMutableDictionary *);
@@ -45,6 +44,7 @@ typedef void(^sharingDetails)(NSDictionary*);
 @property (nonatomic, assign)double purchaseValue;
 @property (nonatomic, strong)NSString *referrerCode;
 @property (nonatomic, strong)NSString *uniqueCode;
+@property (nonatomic, strong)NSString *orderCustomValue;
 @end
 
 
@@ -76,6 +76,8 @@ typedef void(^sharingDetails)(NSDictionary*);
 -(void)trackingforEventInfo:(IREventInfo*)eventInfo userInfo:(IRUserInfo *)userInfo;
 
 -(void)getSharingDetailsWithCampaignInfo:(IRCampaignInfo*)campaignInfo userInfo:(IRUserInfo *)userInfo sharingData:(sharingDetails)irSharingDetails;
+
+-(void)trackInviteWithSourceName:(NSString *)sourceName campaignID:(NSInteger)campaignID;
 
 #pragma mark - OTHER USEFUL METHODS
 

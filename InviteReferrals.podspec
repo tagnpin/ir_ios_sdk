@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'InviteReferrals'
-  s.version          = '5.0.1'
+  s.version          = '5.0.2'
   s.summary          = 'InviteReferrals is best referral software for mobile application'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ InviteReferrals is a powerful and yet simple to integrate referral software that
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :ios
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
   s.source_files = 'InviteReferrals/Classes/**/*.h'
   s.resources = ['InviteReferrals/Assets/**/*.png', 'InviteReferrals/Classes/IR_UserResources.plist']
   s.frameworks = 'Foundation', 'UIKit', 'Security', 'Social', 'MessageUI'
