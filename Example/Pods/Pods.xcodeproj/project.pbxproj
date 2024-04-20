@@ -10,6 +10,9 @@
 		13E242B94B5109A1B6B157F88A0F75B4 /* Pods-InviteReferrals_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134A9669AE33150EEA93160518C39CDD /* Pods-InviteReferrals_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2520BE08242259D8001F1CAB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2520BDF8242259D8001F1CAB /* .gitkeep */; };
 		2520BE11242259D8001F1CAB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2520BE02242259D8001F1CAB /* .gitkeep */; };
+		351AF67C2BD386E0000A60B7 /* InviteReferrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 351AF67B2BD386E0000A60B7 /* InviteReferrals.h */; };
+		351AF67E2BD386E9000A60B7 /* IR_UserResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 351AF67D2BD386E9000A60B7 /* IR_UserResources.plist */; };
+		351AF6802BD386F2000A60B7 /* libInvitereferrals_5_1_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351AF67F2BD386F2000A60B7 /* libInvitereferrals_5_1_0.a */; };
 		35DD08742B21F8FD00C34A1F /* whatsappactivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DD086A2B21F8FD00C34A1F /* whatsappactivity@3x.png */; };
 		35DD08752B21F8FD00C34A1F /* whatsappactivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DD086B2B21F8FD00C34A1F /* whatsappactivity.png */; };
 		35DD08762B21F8FD00C34A1F /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DD086C2B21F8FD00C34A1F /* mail.png */; };
@@ -20,9 +23,6 @@
 		35DD087B2B21F8FD00C34A1F /* whatsappactivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DD08712B21F8FD00C34A1F /* whatsappactivity@2x.png */; };
 		35DD087C2B21F8FD00C34A1F /* sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DD08722B21F8FD00C34A1F /* sms.png */; };
 		35DD087D2B21F8FD00C34A1F /* copy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DD08732B21F8FD00C34A1F /* copy@2x.png */; };
-		35DD08812B21F91600C34A1F /* IR_UserResources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35DD087E2B21F91500C34A1F /* IR_UserResources.plist */; };
-		35DD08822B21F91600C34A1F /* libInvitereferrals_5_0_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DD087F2B21F91600C34A1F /* libInvitereferrals_5_0_2.a */; };
-		35DD08832B21F91600C34A1F /* InviteReferrals.h in Headers */ = {isa = PBXBuildFile; fileRef = 35DD08802B21F91600C34A1F /* InviteReferrals.h */; };
 		788D009140B85AC46779B2AA0A5838D1 /* Pods-InviteReferrals_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3D85532BB2EEBA645EB93EFFBC8DA /* Pods-InviteReferrals_Tests-dummy.m */; };
 		ABBE8F5E6400904E43DF6117C3768AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DB63AE2B88A486FBB714D1A58B4688D7 /* InviteReferrals-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42616C52AFE4CC1EF2639D74B92A3F9A /* InviteReferrals-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,6 +48,9 @@
 		2A20C61572EA8C040BF9F8094A55056D /* InviteReferrals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InviteReferrals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		32D3FFEF75AE2940080A12D5AAD55AAA /* Pods_InviteReferrals_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InviteReferrals_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		351AF67B2BD386E0000A60B7 /* InviteReferrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteReferrals.h; sourceTree = "<group>"; };
+		351AF67D2BD386E9000A60B7 /* IR_UserResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IR_UserResources.plist; sourceTree = "<group>"; };
+		351AF67F2BD386F2000A60B7 /* libInvitereferrals_5_1_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInvitereferrals_5_1_0.a; sourceTree = "<group>"; };
 		35DD086A2B21F8FD00C34A1F /* whatsappactivity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsappactivity@3x.png"; sourceTree = "<group>"; };
 		35DD086B2B21F8FD00C34A1F /* whatsappactivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatsappactivity.png; sourceTree = "<group>"; };
 		35DD086C2B21F8FD00C34A1F /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
@@ -58,9 +61,6 @@
 		35DD08712B21F8FD00C34A1F /* whatsappactivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whatsappactivity@2x.png"; sourceTree = "<group>"; };
 		35DD08722B21F8FD00C34A1F /* sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms.png; sourceTree = "<group>"; };
 		35DD08732B21F8FD00C34A1F /* copy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "copy@2x.png"; sourceTree = "<group>"; };
-		35DD087E2B21F91500C34A1F /* IR_UserResources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IR_UserResources.plist; sourceTree = "<group>"; };
-		35DD087F2B21F91600C34A1F /* libInvitereferrals_5_0_2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInvitereferrals_5_0_2.a; sourceTree = "<group>"; };
-		35DD08802B21F91600C34A1F /* InviteReferrals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteReferrals.h; sourceTree = "<group>"; };
 		42616C52AFE4CC1EF2639D74B92A3F9A /* InviteReferrals-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InviteReferrals-umbrella.h"; sourceTree = "<group>"; };
 		4C1A2EDA8000C61D81065C6FCB6AA3AD /* Pods-InviteReferrals_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InviteReferrals_Tests.modulemap"; sourceTree = "<group>"; };
 		575849887FDB3D3C1B77FB2C0FDD115F /* InviteReferrals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InviteReferrals.release.xcconfig; sourceTree = "<group>"; };
@@ -94,8 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351AF6802BD386F2000A60B7 /* libInvitereferrals_5_1_0.a in Frameworks */,
 				E329C61DF0C198A9456748D2AB5DF73E /* Foundation.framework in Frameworks */,
-				35DD08822B21F91600C34A1F /* libInvitereferrals_5_0_2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,9 +124,9 @@
 		2520BDFF242259D8001F1CAB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				35DD08802B21F91600C34A1F /* InviteReferrals.h */,
-				35DD087E2B21F91500C34A1F /* IR_UserResources.plist */,
-				35DD087F2B21F91600C34A1F /* libInvitereferrals_5_0_2.a */,
+				351AF67F2BD386F2000A60B7 /* libInvitereferrals_5_1_0.a */,
+				351AF67B2BD386E0000A60B7 /* InviteReferrals.h */,
+				351AF67D2BD386E9000A60B7 /* IR_UserResources.plist */,
 				2520BE02242259D8001F1CAB /* .gitkeep */,
 			);
 			name = Classes;
@@ -254,7 +254,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35DD08832B21F91600C34A1F /* InviteReferrals.h in Headers */,
+				351AF67C2BD386E0000A60B7 /* InviteReferrals.h in Headers */,
 				DB63AE2B88A486FBB714D1A58B4688D7 /* InviteReferrals-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,7 +344,7 @@
 				2520BE11242259D8001F1CAB /* .gitkeep in Resources */,
 				35DD08772B21F8FD00C34A1F /* fb.png in Resources */,
 				35DD08792B21F8FD00C34A1F /* WhatsApp.png in Resources */,
-				35DD08812B21F91600C34A1F /* IR_UserResources.plist in Resources */,
+				351AF67E2BD386E9000A60B7 /* IR_UserResources.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

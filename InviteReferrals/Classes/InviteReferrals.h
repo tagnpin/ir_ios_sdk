@@ -76,7 +76,6 @@ typedef void(^sharingDetails)(NSDictionary*);
 -(void)trackingforEventInfo:(IREventInfo*)eventInfo userInfo:(IRUserInfo *)userInfo;
 
 -(void)getSharingDetailsWithCampaignInfo:(IRCampaignInfo*)campaignInfo userInfo:(IRUserInfo *)userInfo sharingData:(sharingDetails)irSharingDetails;
-
 -(void)trackInviteWithSourceName:(NSString *)sourceName campaignID:(NSInteger)campaignID;
 
 #pragma mark - OTHER USEFUL METHODS
